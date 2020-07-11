@@ -4,7 +4,7 @@
   "description": "![UpperSoft](https://raw.githubusercontent.com/uppersoft/teste-front-end/master/assets/logo-readme.png)",
   "main": "index.js",
   "scripts": {
-    "dev": "parcel index.html",
+    "dev": "parcel lista_usuarios.html",
     "build": "parcel build index.html"
   },
   "repository": {
@@ -21,7 +21,8 @@
   "dependencies": {
     "@babel/core": "^7.10.4",
     "@babel/polyfill": "^7.10.4",
-    "axios": "^0.19.2"
+    "axios": "^0.19.2",
+    "path": "^0.12.7"
   },
   "devDependencies": {
     "babel-core": "^6.26.3",

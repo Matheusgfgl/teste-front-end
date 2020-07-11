@@ -21,9 +21,6 @@ const formEvent = form.addEventListener('submit', async event => {
     
       try {
         const res =  await axios.post('https://reqres.in/api/login', user);
-        
-        
-        console.log(`Login realizado`, res);
         console.log(`Login realizado`, res.data.token);
         sessionStorage.setItem('token', res.data.token)
     
@@ -37,6 +34,5 @@ const formEvent = form.addEventListener('submit', async event => {
       }
        
     };
-
   });
-//getData.addEventListener('click', handleLogin);
+

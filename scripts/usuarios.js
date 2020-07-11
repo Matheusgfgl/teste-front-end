@@ -1,6 +1,9 @@
 
 import axios from 'axios';
 import 'babel-polyfill';
+const path = require('path'); 
+   
+
 
 const getUsers = async () => {
   try {
@@ -27,10 +30,10 @@ const getUsers = async () => {
     } else if (users) {
       ul.appendChild(createLi(users));
     }
-    const p = document.createElement('span');
+    const span = document.createElement('span');
     const lblp = document.createTextNode('Mostrando ' + data.per_page + ' de ' + data.total);
-    p.appendChild(lblp); 
-    container.appendChild(p); 
+    span.appendChild(lblp); 
+    container.appendChild(span); 
   }
 
   const createLi = user => {
@@ -48,7 +51,7 @@ const getUsers = async () => {
     const icone = document.createElement('img');
     
     icone.src = "http://127.0.0.1:5501/assets/icon.svg";
-    console.log(icone.src)
+    console.log("Casdasdasd:");
     btn.appendChild(icone);
 
     const h2 = document.createElement('h2');

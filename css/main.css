@@ -4,10 +4,6 @@
   margin: 0;
 }
 
-html {
-  font-size: 8px;
-}
-
 input,
 button {
   outline: 0;
@@ -45,16 +41,6 @@ body header img {
   margin-top: 20px;
   margin-bottom: 20px;
   height: 40px;
-}
-
-@media (min-width: 800px) {
-  html {
-    font-size: 16px;
-    color: black;
-  }
-  li {
-    height: 50%;
-  }
 }
 
 .logon-container {

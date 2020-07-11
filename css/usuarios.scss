@@ -1,19 +1,28 @@
 @import 'global';
-@import 'mediaQueries';
+@import '_mediaQueries';
 
   $primary-color : #174DBA;
 
 
 .users-container
 {
-  height: 100%;
   display: flex;
-  flex-direction: column;
+  height: 100%;
   background-color: #EFF0F3;
+  align-items: center;
+  justify-content: center;
+  
+  .container
+  {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    max-width: 1600px;
+    align-items: stretch;
 
   h1{
         
-    margin: 50px 200px;
+    margin: 50px 110px;
     color: $primary-color;
     font-size: 3rem;
         
@@ -36,7 +45,7 @@
           position: relative;
           width: 90%;
           height: 300px;
-          max-width: 460px;
+          max-width: 400px;
           
 
           display: flex;
@@ -56,7 +65,7 @@
             right: 10px;
             top: 10px;
             border: 0;
-            transition: 0.2s;
+            transition: 0.3s;
             background-color: none;
 
             img{
@@ -67,7 +76,7 @@
           }
 
           button:hover{
-            opacity: 0.8;
+            opacity: 0.6;
           }
 
           h2{
@@ -88,21 +97,11 @@
       }   
       span {
         color: #505050;
-        margin-right: 190px;
+        margin-right: 120px;
         padding: 40px 0  60px;
-        font-size: 16px;
+        font-size: 1rem;
         text-align: end;
-        position: relative;
         }
-     
-
     }     
-
-    @media (max-width: 600px){
-
-      h1{
-       font-size: 50%;
-       color: black;
-      }  
-       
-    }
+  }
+  

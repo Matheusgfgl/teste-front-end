@@ -4,10 +4,6 @@
   margin: 0;
 }
 
-html {
-  font-size: 8px;
-}
-
 input,
 button {
   outline: 0;
@@ -47,25 +43,37 @@ body header img {
   height: 40px;
 }
 
-@media (min-width: 800px) {
-  html {
-    font-size: 16px;
-    color: black;
-  }
-  li {
-    height: 50%;
-  }
-}
-
 @media (max-width: 600px) {
   html {
-    font-size: 50%;
-    color: black;
+    font-size: 60%;
+  }
+  html li {
+    max-height: 220px;
+  }
+  html li img {
+    max-height: 80px;
+  }
+  html li p {
+    padding-bottom: 0px;
   }
 }
 
 .users-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
   height: 100%;
+  background-color: #EFF0F3;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.users-container .container {
+  width: 100%;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -73,16 +81,19 @@ body header img {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
-  background-color: #EFF0F3;
+  max-width: 1600px;
+  -webkit-box-align: stretch;
+      -ms-flex-align: stretch;
+          align-items: stretch;
 }
 
-.users-container h1 {
-  margin: 50px 200px;
+.users-container .container h1 {
+  margin: 50px 110px;
   color: #174DBA;
   font-size: 3rem;
 }
 
-.users-container ul {
+.users-container .container ul {
   width: 90%;
   max-width: 1380px;
   margin: auto;
@@ -93,14 +104,14 @@ body header img {
   grid-gap: 50px;
 }
 
-.users-container ul li {
+.users-container .container ul li {
   background: #FFF;
   padding: 32px 18px 16px;
   border-radius: 8px;
   position: relative;
   width: 90%;
   height: 300px;
-  max-width: 460px;
+  max-width: 400px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -118,7 +129,7 @@ body header img {
       flex-wrap: wrap;
 }
 
-.users-container ul li img {
+.users-container .container ul li img {
   height: 120px;
   margin-bottom: 10px;
   border-radius: 50%;
@@ -126,28 +137,28 @@ body header img {
           box-shadow: 0 4px 4px rgba(0, 0, 0, 0.5);
 }
 
-.users-container ul li button {
+.users-container .container ul li button {
   position: absolute;
   right: 10px;
   top: 10px;
   border: 0;
-  -webkit-transition: 0.2s;
-  transition: 0.2s;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
   background-color: none;
 }
 
-.users-container ul li button img {
+.users-container .container ul li button img {
   height: 26px;
   border-radius: 0;
   -webkit-box-shadow: none;
           box-shadow: none;
 }
 
-.users-container ul li button:hover {
-  opacity: 0.8;
+.users-container .container ul li button:hover {
+  opacity: 0.6;
 }
 
-.users-container ul li h2 {
+.users-container .container ul li h2 {
   display: block;
   margin-top: 10px;
   margin-bottom: 20px;
@@ -155,26 +166,18 @@ body header img {
   font-size: 2rem;
 }
 
-.users-container ul li p {
+.users-container .container ul li p {
   padding-bottom: 20px;
   color: #505050;
   font-size: 1rem;
   font-weight: bold;
 }
 
-.users-container span {
+.users-container .container span {
   color: #505050;
-  margin-right: 190px;
+  margin-right: 120px;
   padding: 40px 0  60px;
-  font-size: 16px;
+  font-size: 1rem;
   text-align: end;
-  position: relative;
-}
-
-@media (max-width: 600px) {
-  h1 {
-    font-size: 50%;
-    color: black;
-  }
 }
 /*# sourceMappingURL=usuarios.css.map */

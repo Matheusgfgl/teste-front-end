@@ -1,9 +1,22 @@
 
+
+
  @media (max-width: 600px){
 
    html{
-    font-size: 50%;
-    color: black;
+    font-size: 60%;
+      li{
+        max-height: 220px;
+        img{
+        
+          max-height: 80px;
+        }
+        p{
+          padding-bottom: 0px;
+        }
+      }
+  
    }
+
    
  }
