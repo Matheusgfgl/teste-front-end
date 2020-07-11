@@ -4,7 +4,7 @@
   "description": "![UpperSoft](https://raw.githubusercontent.com/uppersoft/teste-front-end/master/assets/logo-readme.png)",
   "main": "index.js",
   "scripts": {
-    "dev": "parcel lista_usuarios.html",
+    "dev": "parcel index.html",
     "build": "parcel build index.html"
   },
   "repository": {

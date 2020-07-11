@@ -2,7 +2,7 @@
 @import '_mediaQueries';
 
   $primary-color : #174DBA;
-
+  $dark-color: #505050;
 
 .users-container
 {
@@ -22,7 +22,7 @@
 
   h1{
         
-    margin: 50px 110px;
+    margin: 80px 110px 50px;
     color: $primary-color;
     font-size: 3rem;
         
@@ -89,14 +89,14 @@
 
           p {
           padding-bottom: 20px;
-          color: #505050;
+          color: $dark-color;
           font-size: 1rem;
           font-weight: bold;
           }
         } 
       }   
       span {
-        color: #505050;
+        color: $dark-color;
         margin-right: 120px;
         padding: 40px 0  60px;
         font-size: 1rem;
