@@ -2,6 +2,7 @@
 
 $text-color: #174DBA;
 $gray: #EFF0F3;
+
   .logon-container{
     display: flex;
     width: 100%;
@@ -63,3 +64,25 @@ $gray: #EFF0F3;
             }
       }
     }
+    @media (max-width: 600px){
+      .logon-container{ 
+        
+          form{
+            width: 80%;
+            
+            h1{
+              margin-bottom: 30px;
+            }
+            input{
+              width: 80%;
+              height: 38px;
+              
+            }
+    
+            button{
+              width: 210px;
+              margin-bottom: 40px;
+            }
+          }
+        }
+      }

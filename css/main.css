@@ -126,4 +126,21 @@ body header img {
           flex-direction: column;
   font-weight: 600;
 }
+
+@media (max-width: 600px) {
+  .logon-container form {
+    width: 80%;
+  }
+  .logon-container form h1 {
+    margin-bottom: 30px;
+  }
+  .logon-container form input {
+    width: 80%;
+    height: 38px;
+  }
+  .logon-container form button {
+    width: 210px;
+    margin-bottom: 40px;
+  }
+}
 /*# sourceMappingURL=main.css.map */
