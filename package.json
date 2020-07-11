@@ -1,0 +1,37 @@
+{
+  "name": "Uppersoft",
+  "version": "1.0.0",
+  "description": "![UpperSoft](https://raw.githubusercontent.com/uppersoft/teste-front-end/master/assets/logo-readme.png)",
+  "main": "index.js",
+  "scripts": {
+    "dev": "parcel index.html",
+    "build": "parcel build index.html"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Matheusgfgl/teste-front-end.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Matheusgfgl/teste-front-end/issues"
+  },
+  "homepage": "https://github.com/Matheusgfgl/teste-front-end#readme",
+  "dependencies": {
+    "@babel/core": "^7.10.4",
+    "@babel/polyfill": "^7.10.4",
+    "axios": "^0.19.2"
+  },
+  "devDependencies": {
+    "babel-core": "^6.26.3",
+    "babel-loader": "^8.1.0",
+    "babel-polyfill": "^6.26.0",
+    "babel-preset-es2015": "^6.24.1",
+    "babel-preset-react-app": "^9.1.2",
+    "babel-preset-stage-0": "^6.24.1",
+    "parcel-bundler": "^1.12.4",
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1"
+  }
+}
