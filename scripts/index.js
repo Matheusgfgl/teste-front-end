@@ -23,7 +23,6 @@ const formEvent = form.addEventListener('submit', async event => {
         const res =  await axios.post('https://reqres.in/api/login', user);
         console.log(`Login realizado`, res.data.token);
         sessionStorage.setItem('token', res.data.token)
-    
      
       } catch (e) {
         alert("Usuario ou senha invalidos");
