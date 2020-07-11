@@ -50,7 +50,7 @@ const getUsers = async () => {
     const btn = document.createElement('Button');
     const icone = document.createElement('img');
     
-    icone.src = "http://127.0.0.1:5501/assets/icon.svg";
+    icone.src = "http://localhost:1234/assets/icon.svg";
     btn.appendChild(icone);
 
     const h2 = document.createElement('h2');
