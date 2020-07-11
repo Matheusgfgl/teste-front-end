@@ -8,4 +8,4 @@ git clone https://github.com/Matheusgfgl/teste-front-end.git
   execute npm install 
 
 ### - Inicializando a aplicação
-    execute npm run dev
+   execute npm run dev
